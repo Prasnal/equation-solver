@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html>
+  <meta charset="utf-8">
+  <title>First Project</title>
+  <body background="background.jpg">
+    <link rel="Stylesheet" href="./style/styl.css" type="text/css" />
+    <link rel="Stylesheet" href="./style/style.css" type="text/css" />
+    <header>
+     Equation Solver
+      <nav>
+        <span id="space"><a href="index.html">Main Page</a></span> <span id="space"><a href="solver.html">Equation Solver</a></span> <span id="space"><a href="documentation.html">Documentation</a></span>
+      </nav>
+    </header>
+    <p></p>
+    <p></p>
+    <p></p>
+    <article>
+      <script type="text/javascript" src="script/script.js">
+      </script>
+      <h3>Put equation parameters</h3>
+      <formula>
+        <input type="text" id="a" value="0" select onchange="rozwiazanie()"/>
+        x +
+        <input type="text" id="b" value="0" select onchange="rozwiazanie()"/>
+        y +
+        <input type="text" id="c" value="0"  select onchange="rozwiazanie()"/>
+        z =
+        <input type="text" id="d" value="0"  select onchange="rozwiazanie()"/>
+        <p></p>
+        <input type="text" id="e" value="0" select onchange="rozwiazanie()"/>
+        x +
+        <input type="text" id="f" value="0"  select onchange="rozwiazanie()"/>
+        y +
+        <input type="text" id="g" value="0"  select onchange="rozwiazanie()"/>
+        z =
+        <input type="text" id="h" value="0"  select onchange="rozwiazanie()"/>
+        <p></p>
+        <input type="text" id="i" value="0" select onchange="rozwiazanie()"/>
+        x +
+        <input type="text" id="j" value="0"  select onchange="rozwiazanie()"/>
+        y +
+        <input type="text" id="k" value="0"  select onchange="rozwiazanie()"/>
+        z =
+        <input type="text" id="l" value="0"  select onchange="rozwiazanie()"/>
+      </formula>
+      <p></p>
+      <input type="button" value="Clean data" onclick="clean(rozwiazanie())"/>
+      <input type="button" value="Random values" onclick="randomvalue(rozwiazanie())"/>
+      <input type="button" value="Draw solution" onclick="draw()"/>
+
+      <div id="openModal" class="modalDialog">
+	<div>
+	  <a href="#close" title="Close" class="close">X</a>
+	  <h3><exception> Graphic solution </exception></h3>
+          <script type="text/javascript" src="script/script.js">
+           draw()</script>
+          <canvas width="400" height="300" id="xy">
+          </canvas>
+	  <p><p id="solutionfield2"></id></p>
+	</div>
+      </div>
+      <p id="solutionfield"></id>
+    </article>
+
+    <footer>
+      Project 1 - Internet technology 2015/2016 - Dorota Psota
+    </footer>
+</html>

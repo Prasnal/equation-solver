@@ -1,0 +1,136 @@
+@font-face {
+  font-family: title;
+    src: url('../fonts/antibiotech.ttf');
+}
+
+@font-face {
+  font-family: text;
+    src: url('../fonts/Elementarz.ttf');
+}
+
+@font-face {
+  font-family: math;
+    src: url('../fonts/mata.otf');
+}
+header {
+    font-family:title;
+    font-size: 40px;
+    color:white;
+    width:758px;
+    height: 80px;
+    padding: 20px;
+    background-color:black;
+    margin:auto;
+    border:solid 2px white;
+    text-align:center;
+    position:relative;
+}
+
+exception{
+    color:black;
+    /* border:solid 2px black;*/
+    font-weight:normal;
+    font-size: 40px;
+    font-family: title;
+}
+
+nav{
+    word-spacing:3cm;
+    font-family:text;
+    font-size:25px;
+    color:white;
+    width:738px;
+    height: 20px;
+    padding: 10px;
+    background-color:black;
+    border:solid 1px white;
+    text-align:center;
+}
+
+#space{
+    word-spacing:normal;
+
+}
+a:link{
+    color:white;
+    text-decoration:none;
+}
+
+a:visited{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:black;
+    background-color:white;
+
+}
+
+formula{
+    font-family:Times;
+    font-size:20px;
+
+
+}
+
+article{
+    background-color: black;
+    font-family:math;
+    font-size:30px;
+    text-align:center;
+    color:white;
+    border: solid 2px white;
+    width: 60%;
+    padding:30px;
+    height: 700px;
+    margin:auto;
+}
+p#solutionfield{
+    background-color:black;
+    font-family:math;
+    font-size:30px;
+
+}
+
+p#solutionfield2{
+        color:black;
+    /* border:solid 2px black;*/
+    font-weight:normal;
+    font-size: 40px;
+    font-family: title;
+
+
+}
+input[type="text"]{
+    color:white;
+    font-family:math;
+    font-size:17px;
+    background-color:black;
+    border:solid 2px white;
+    height:25px;
+    width:25px;
+}
+
+input[type="button"]{
+    background-color:black;
+    font-family:math;
+    font-size:17px;
+    color:white;
+    height:40px;
+    width:auto;
+    border: solid 2px white;
+}
+
+footer{
+    border:solid 2px white;
+    text-align:center;
+    font-size:15px;
+    font-family:math;
+    color:white;
+    position: fixed;
+    bottom: 0.1%;
+    height:22px;
+    background-color:black;
+    width: 100%;
+}
